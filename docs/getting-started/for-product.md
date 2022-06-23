@@ -12,6 +12,9 @@ Product Managers typically have the role of experiment owner in the [experimenta
 *  launching the experiment
 *  building a set of reviewers trained and authorized to perform review sign-offs in your feature areas
 
+WARNING: below is a sample image only of this part of the flow - see this [LIVE and CURRENT workflow](https://miro.com/app/board/uXjVOJ3IYRA=/) for the most accurate information, including maintained links and flow)
+![Implementing flow](/img/workflow/implementing.png)
+
 ## Where do I start?
 *  Watch the 5 minute video on [experiment workflow](https://experimenter.info/workflow/overview) for an overview of the experiment lifecycle to understand the stages / ordering.
 *  Use the [Workflow Miro board](https://experimenter.info/workflow/overview) as your source for current links and guidance.
@@ -26,3 +29,8 @@ Rather than duplicate links that may later break as the process improves - links
 *  There are several weekly touchpoints [Office Hours](https://mana.mozilla.org/wiki/display/DATA/Office+Hours) for in person assistance from subject matter experts in different areas.  
 *  If you are confused on any aspect - that's expected the first few experiments until you've gotten the rhythm.  Ask in the #ask-experimenter Slack channel - it is an open community of support from several disciplines.   
 
+## To determine your telmetry needs
+
+## To check feature configuration
+
+## To verify targeting availability
