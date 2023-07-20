@@ -9,9 +9,9 @@ See the [Rollout FAQ](/deep-dives/experimenter/rollouts) for general rollout inf
 :::
 
 ### Question
-I have a feature that is now **on by default** in v115, and I want to wait until it has saturated the user base before shutting off the rollout. Do we have a standard around how long we should keep a rollout going in a situation like this?
+I have a feature that is now **on by default** in the current version.  I want to wait until it has saturated the user base before shutting off the rollout. Do we have a standard around how long we should keep a rollout going in a situation like this?
 
 ### Answer
-**Yes**, we typically wait 1-3 releases for the upgrade tail to catch up. You'll probably have the vast majority, so it just depends on the ramifications if people have it enabled on 114 and then lose it.
+**Yes**, we typically wait 1-3 releases after the release your change landed in the tree.  You'll have the vast majority on the next release cycle.  If you leave it on 1,2, or 3 releases depends on the ramifications if people have it enabled (through the rollout) on versions before you landed it, and then lose it.
 
-If it's **not** a big deal, turn off the rollout in 116 and most people will have it and the stragglers will get it when they upgrade.  If it **is** a big deal - turn off in 117 or 118 and you'll have reached a few percent more with each release.
+If it's **not** a big deal, turn off the rollout in 1-3 releases. Most people will have it and the stragglers will get it when they upgrade.  If it **is** a big deal (think high impact security fix or crasher) - you can leave the rollout running longer.  You reach fewer people with each release, a percent or less each release for the stragglers.  
