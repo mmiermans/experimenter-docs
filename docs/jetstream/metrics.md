@@ -40,6 +40,9 @@ Data scientists can extend and define outcomes in the outcomes path of the
 
 If the metrics you need are not covered by Guardrail/Core metrics or existing Outcomes - you can add a metric to your experiment by working with a data scientist to write a [custom configuration](configuration.md) for your experiment.
 
+## How do I know what the default metric names mean?
+
+Look at a completed experiments results - example [here](https://experimenter.services.mozilla.com/nimbus/set-to-default-context-early-day-users-fox-doodle/results#uri_count).  If you scroll to any metric, you can click the "?" and get a brief description.  Ex: if you click on the "?" next to "Ad_Clicks" it says "Counts clicks on ads on search engine results pages with a Mozilla partner tag.".  For the primary guardrails for your platform in the Overview or Summary sections - hover over the metric name and the metric description will show up.
 
 
 
